@@ -1,0 +1,179 @@
+a:hover, 
+a:focus,
+h1.colored, .h1.colored, 
+h2.colored, .h2.colored, 
+h3.colored, .h3.colored, 
+h4.colored, .h4.colored, 
+h5.colored, .h5.colored, 
+h6.colored, .h6.colored,
+.icon.colored i,
+.intro .content .video-control:hover i,
+section.parallax .video-control:hover i, 
+section.video .video-control:hover i,
+.navbar .navbar-collapse:not(.in):not(.collapsing) .navbar-nav > li.dropdown.open > a,
+.navbar .navbar-nav > li > .dropdown-menu li.active a,
+.navbar .navbar-icon a:hover > i,
+.intro .caption h1 > strong,
+.intro .caption h1 > span > b,
+.intro .intro-slideshow .owl-nav > button:hover,
+.section-title p > strong,
+.service-single .icon,
+.service-single:hover h3,
+.team-slider .center .team-member .team-details .title,
+.faq-support .panel-heading h4 a,
+.faq-support .panel-heading h4 a:hover,
+.price-table .price-title > .icon,
+.price-table .price-title .price-rate .currency > i,
+.price-table .price-title .price-rate .rate,
+.price-table .price-title .price-rate .time,
+.price-btn a,
+.btn.btn-link,
+.btn.btn-inverse,
+.btn-read-more,
+.portfolio-filters span:hover,
+.portfolio-filters span.active,
+.sidebar .search-form button:hover,
+.sidebar .search-form button:focus,
+.sidebar ul.menu li a:hover, 
+.sidebar ul.menu li a:focus,
+.sidebar ul.links li a:hover, 
+.sidebar ul.links li a:focus,
+.recent-post-categories a,
+.author-info h3 a,
+.author-info h4,
+.parallax .blog-about a:hover,
+.parallax .about-author a:hover,
+.pages-navigation a:hover, 
+.pages-navigation a:focus,
+.user-comment .details .reply a,
+.counter .icon,
+.contact-content > .icon,
+.contact-content:hover h4,
+.post-tags a,
+.share-btn:hover > p,
+.share-btn:hover > p > i,
+.post-counters li > a:hover,
+footer a:hover,
+.footer-social a:hover > i,
+footer .newsletter-form button:hover,
+footer .newsletter-form button:focus {
+	color:#c86f98;
+}
+
+.navbar .navbar-nav > li a:hover, 
+.navbar .navbar-nav > li a:focus,
+.navbar .navbar-nav > li.active > a,
+.arrows .arrow i.fa:hover,
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus,
+.share-btn:hover > p > i {
+	color:#c86f98 !important;
+}
+
+.btn.btn-link:hover, 
+.btn.btn-link:focus {
+	color:#d289aa;
+}
+
+.intro .mouse:hover .wheel,
+.intro .intro-slideshow .owl-dots > .owl-dot.active span,
+.clients-slider .owl-dots > .owl-dot.active span,
+.service-single:hover .icon,
+.price-table.featured,
+.price-btn a:before,
+.blog-home .blog-category,
+.blog-category > a,
+.tags .tag:hover,
+footer .footer-widgets .tags .tag:hover,
+.recent-post-image:before,
+.sidebar ul.menu li span,
+footer .to-top {
+	background:#c86f98;
+}
+
+.team-slider .owl-nav > button,
+.testimonial-nav .slick-arrow {
+	background:#c86f98 !important;
+}
+
+.team-slider .owl-nav > button:hover,
+.testimonial-nav .slick-arrow:hover,
+.search-wrapper .search-close-btn:hover:before,
+.search-wrapper .search-close-btn:hover:after {
+	background:rgba(200, 111, 152, 0.85) !important;
+}
+
+.navbar .navbar-toggle:hover .icon-bar,
+.btn.btn-default,
+.portfolio-item .loading,
+.progress .progress-bar,
+.dropcap.alt,
+.highlight,
+.sticker.default,
+#scrollTop:before,
+#scrollTop:after,
+#zoom-in:hover, 
+#zoom-out:hover {
+	background-color:#c86f98;
+}
+
+#zoom-in, 
+#zoom-out,
+.section.parallax .parallax-overlay.colored, 
+.section.video .parallax-overlay.colored, 
+.section.parallax .video-overlay.colored, 
+.section.video .video-overlay.colored {
+	background-color:rgba(200, 111, 152, 0.85);
+}
+
+.btn.btn-default:hover, 
+.btn.btn-default:focus,
+.blog-category > a:hover,
+footer .to-top:hover {
+	background-color:#d289aa;
+}
+
+.btn.btn-inverse:hover, 
+.btn.btn-inverse:focus {
+	border-color:#d289aa;
+	color:#d289aa;
+}
+
+blockquote,
+.intro .mouse:hover,
+.portfolio-filters span.active,
+.testimonial-carousel .carousel-images .slick-center img,
+footer .newsletter-form input[type=email]:focus,
+footer .footer-widgets .tags .tag:hover,
+input:focus, 
+textarea:focus {
+	border-color:#c86f98;
+}
+
+input.notice, 
+textarea.notice {
+	border-color:#c86f98 !important;
+}
+
+.portfolio-filters a.active {
+	background-color:#c86f98 !important;
+}
+
+.loader-icon .spinner,
+.promotion-box {
+	border-left-color:#c86f98;
+}
+
+.promotion-box.line-top {
+	border-top-color:#c86f98;
+}
+
+.sticker.default:hover {
+	background-color:#fa9c7c;
+}
+
+
+
+
+
