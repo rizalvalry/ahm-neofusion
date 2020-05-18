@@ -150,7 +150,7 @@
                                 <!--.tabs-->
                                 <div class="tabs-content">
                                     <div id="signup-tab-content" class="active">
-                                        <form class="signup-form" action="" method="post">
+                                        <form class="signup-form" action="event-detail.html" method="post">
                                             <div class="form-group">
                                                 <label>Email</label>
                                                 <input
@@ -180,10 +180,10 @@
                                                 <label class="forget">Lupa Akun ?</label>
                                             </div>
                                             <div class="column">
-                                                <input type="submit" class="button" value="LOGIN">
+                                                    <input type="submit" id="myButton" class="button" value="LOGIN">
                                             </div>
                                             <div class="column">
-                                                <input type="submit" class="button" value="BUAT AKUN">
+                                                <input type="button" class="button" value="BUAT AKUN">
                                             </div>
                                         </div>
                                     </form>
@@ -201,6 +201,12 @@
                 <div class="icon icon-arrows-up"></div>
                 <div class="icon icon-arrows-up"></div>
             </a>
+
+            <script type="text/javascript">
+                document.getElementById("myButton").onclick = function () {
+                    location.href = "www.yoursite.com";
+                };
+            </script>
             <!-- jQuery -->
             <script src="layout/plugins/jquery/jquery.js"></script>
             <!-- Bootstrap -->

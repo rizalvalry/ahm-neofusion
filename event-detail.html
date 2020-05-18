@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+    <head>
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- Title -->
+        <title>Sena - Responsive One Page Parallax Template</title>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon/favicon.ico">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="layout/plugins/bootstrap/css/bootstrap.min.css">
+        <!-- Font awesome -->
+        <link rel="stylesheet" type="text/css" href="layout/plugins/fontawesome/css/all.min.css">
+        <!-- Linea icons -->
+        <link rel="stylesheet" type="text/css" href="layout/plugins/linea/arrows/styles.css">
+        <link rel="stylesheet" type="text/css" href="layout/plugins/linea/basic/styles.css">
+        <link rel="stylesheet" type="text/css" href="layout/plugins/linea/ecommerce/styles.css">
+        <link rel="stylesheet" type="text/css" href="layout/plugins/linea/software/styles.css">
+        <link rel="stylesheet" type="text/css" href="layout/plugins/linea/weather/styles.css">
+        <!-- Google web fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="layout/style.css" type="text/css">
+        <link rel="stylesheet" href="layout/media.css" type="text/css">
+        <!-- Color schema -->
+        <link
+            class="colors"
+            rel="stylesheet"
+            href="layout/colors/orange.css"
+            type="text/css"
+        >
+        <!-- Animated -->
+        <link rel="stylesheet" type="text/css" href="layout/plugins/animate/animate.css">
+        <!-- Animated headline -->
+        <link rel="stylesheet" type="text/css" href="layout/plugins/animatedheadline/animated.headline.css">
+        <!-- Owl carousel -->
+        <link rel="stylesheet" type="text/css" href="layout/plugins/owlcarousel/owl.carousel.min.css">
+        <!-- Slick carousel -->
+        <link rel="stylesheet" type="text/css" href="layout/plugins/slick/slick.css">
+        <!-- YTPlayer -->
+        <link rel="stylesheet" type="text/css" href="layout/plugins/mb/css/jquery.mb.ytplayer.min.css">
+        <!-- Modernizr -->
+        <script src="layout/plugins/modernizr/modernizr.min.js"></script>
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+      		<script src="layout/plugins/html5shiv/html5shiv.js"></script>
+      		<script src="layout/plugins/respond/respond.min.js"></script>
+      	<![endif]-->
+    </head>
+    <body>
+        <!-- Loader -->
+        <!-- <div class="page-loader">
+			<div class="text-center loader-middle">
+    			<div class="loader-ellipsis"><div></div><div></div><div></div><div></div></div>
+    		</div>
+		</div> -->
+        <!-- Navigation bar -->
+        <header>
+            <div class="navbar-inner">
+                <div class="container">
+                    <a href="/">
+                        <img class="logo_honda" src="images/ahm/logohonda.gif">
+                    </a>
+                    <a href="/">
+                        <img class="logo_ahm" src="images/ahm/AHM.jpg">
+                    </a>
+                </div>
+                <div class="navbar" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <!-- Menu for Tablets / Phones -->
+                            <button
+                                type="button"
+                                class="navbar-toggle"
+                                data-toggle="collapse"
+                                data-target="#navbar-collapse"
+                            >
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <!-- Logo -->
+                            <!-- <a class="navbar-brand" href="#">
+				<img src="images/ahm/home.png" alt="Sena" data-rjs="2">
+			</a> -->
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbar-collapse">
+                            <!-- Icons -->
+                            <!-- <div class="navbar-icon">
+							<a href="#" class="navbar-search"><i class="fas fa-home"></i></a>
+						</div> -->
+                            <!-- Items -->
+                            <ul class="nav navbar-nav navbar-left">
+                                <li>
+                                    <a href="#about">
+                                        <i class="fa fa-home" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#about">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#team">Team</a>
+                                </li>
+                                <li>
+                                    <a href="#portfolio">Projects</a>
+                                </li>
+                                <li>
+                                    <a href="#testimonials">Reviews</a>
+                                </li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <a href="#" class="navbar-search ahm-cal">
+                                        <i class="fa fa-calendar fa-2x" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="login.html">
+                                        <button class="btn btn-jack">
+                                            Login
+                                        </button>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="signup.html" class="ahm-borderblood">
+                                        <button class="btn btn-white">
+                                            Daftar
+                                        </button>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--  -->
+        <!-- Search wrapper -->
+        <div class="search-wrapper">
+            <!-- Search form -->
+            <form
+                role="search"
+                method="get"
+                class="search-form"
+                action="#"
+            >
+                <input
+                    type="search"
+                    name="s"
+                    id="s"
+                    placeholder="Search Keyword"
+                    class="searchbox-input"
+                    autocomplete="off"
+                    required
+                >
+                <span>Input your search keywords and press Enter.</span>
+            </form>
+            <!-- Close button -->
+            <div class="search-wrapper-close">
+                <a href="#" class="search-close-btn"></a>
+            </div>
+        </div>
+        <!-- Intro -->
+        <section
+            class="intro"
+            id="intro"
+            data-type="slideshow"
+            data-delay="10"
+            data-animation="fadeInUp"
+        >
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- Slideshow -->
+                    <div class="intro-slideshow owl-carousel owl-theme full-width">
+                        <!-- Slide 1 -->
+                        <div class="item bg-img text-center" data-bg="images/ahm/banner3.jpg">
+                            <div class="caption">
+                                <h3>Penting nya Mengikuti pelatihan</h3>
+                                <h1>AHM Safety Riding Park
+                                    <strong></strong>
+                                </h1>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="item bg-img text-center" data-bg="images/ahm/banner2.jpg">
+                            <div class="caption">
+                                <h3>Penting nya Mengikuti pelatihan</h3>
+                                <h1>AHM Safety Riding Park
+                                    <strong></strong>
+                                </h1>
+                            </div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="item bg-img text-center" data-bg="images/ahm/banner1.jpg">
+                            <div class="caption">
+                                <h3>Penting nya Mengikuti pelatihan</h3>
+                                <h1>AHM Safety Riding Park
+                                    <strong></strong>
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Magic mouse -->
+            <div class="mouse">
+                <a href="#about">
+                    <span class="wheel"></span>
+                </a>
+            </div>
+        </section>
+        <!-- About -->
+
+ 
+            <div class="jumbotron">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-8"> <h2 class="text-white">Mari Bergabung Bersama Kami</h2></div>
+                        <div class="col-xs-6 col-md-4"><button class="btn ahm-button-reg">Pendaftaran</button></div>
+                      </div>
+                </div>
+            </div>
+
+        
+        <section id="counters" class="counters">
+            <div class="parallax-container">
+
+               <div class="container">
+                   <div class="row">
+
+                       <!-- Counter 1 -->
+                       <div class="col-md-4 col-sm-6">
+                           <div class="counter wow fadeInUp">
+                            <i class="fas fa-map-marker-alt"></i>
+                               <div class="counter-content res-margin">
+                                   <p>Lokasi</p>
+                                   <h4>
+                                       <span>AHM Safety Riding Park</span>
+                                   </h4>									
+                               </div>
+                           </div>
+                       </div>
+
+                       <!-- Counter 2 -->
+                       <div class="col-md-4 col-sm-6">
+                           <div class="counter wow fadeInUp" data-wow-delay="0.3s">
+                            <i class="far fa-clock"></i>
+                               <div class="counter-content res-margin">
+                                   <p>Durasi</p>
+                                   <h4>
+                                       <span>10 Jam</span>
+                                   </h4>
+                               </div>
+                           </div>
+                       </div>
+
+                       <!-- Counter 3 -->
+                       <div class="col-md-4 col-sm-6">
+                           <div class="counter wow fadeInUp" data-wow-delay="0.6s">
+                            <i class="fas fa-ticket-alt"></i>
+                               <div class="counter-content res-margin">
+                                   <p>Biaya</p>
+                                   <h4>
+                                       <span>Gratis</span>
+                                   </h4>
+                               </div>
+                           </div>
+                       </div>
+
+
+                   </div>
+               </div>
+
+           </div>
+       </section>	
+
+
+       <h3 class="text-center v1"><bold>Kelas</bold> <span class="strong-weight">Lainnya</span></h3>
+
+
+       <section id="team" class="hole">
+
+        <!-- Container -->
+        <div class="container team"> 
+
+            <div class="row">	
+                <div class="col-md-12">
+
+                    <div class="team-slider owl-carousel owl-theme">
+                    
+                        <!-- Member 1 -->
+                        <div class="item">
+                            <div class="team-member rounded">
+                                
+                                <div class="team-details">
+                                    <h5 class="title">Kelas Khusus Persiapan SIM</h5>
+                                    <p class="position">AHM Safety Riding Park</p>
+                                </div>
+                                
+                                <div class="team-thumb">
+                                    <img src="images/event-details/1.jpg" alt="" />
+                                </div>	
+                                    
+                                <div class="team-excerpt">
+                                    <p>Memberikan pengetahuan dan kemampuan berkendara sesuai standar pengujian SIM</p>
+                                </div>
+                        
+                                
+                            </div>
+                        </div>
+                        
+                        <!-- Member 2 -->
+                        <div class="item">
+                            <div class="team-member rounded">
+                                
+                                <div class="team-details">
+                                    <h5 class="title">Kelas Khusus Prediksi Bahaya lalu Lintas</h5>
+                                    <p class="position">AHM Safety Riding Park</p>
+                                </div>
+                                
+                                <div class="team-thumb">
+                                    <img src="images/event-details/2.jpg" alt="" />
+                                </div>	
+                                    
+                                <div class="team-excerpt">
+                                    <p>Memberikan kemampuan prediksi bahaya yang dirancang khusus sesuai kebutuhan Anda</p>
+                                </div>
+                       
+                                
+                            </div>
+                        </div>
+                        
+                        <!-- Member 3 -->
+                        <div class="item">
+                            <div class="team-member rounded">
+                                
+                                <div class="team-details">
+                                    <h5 class="title">Kelas Khusus Persiapan SIM</h5>
+                                    <p class="position">AHM Safety Riding Park</p>
+                                </div>
+                                
+                                <div class="team-thumb">
+                                    <img src="images/event-details/3.jpg" alt="" />
+                                </div>	
+                                    
+                                <div class="team-excerpt">
+                                    <p>Memberikan kemampuan prediksi bahaya yang dirancang khusus sesuai kebutuhan Anda</p>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        
+                        <!-- Member 4 -->
+                        <div class="item">
+                            <div class="team-member rounded">
+                                
+                                <div class="team-details">
+                                    <h5 class="title">Kelas Khusus Profesi/<br>Perusahaan</h5>
+                                    <p class="position">AHM Safety Riding Park</p>
+                                </div>
+                                
+                                <div class="team-thumb">
+                                    <img src="images/event-details/4.jpg" alt="" />
+                                </div>	
+                                    
+                                <div class="team-excerpt">
+                                    <p>Memberikan kemampuan berkendara khusus sesuai kebutuhan Anda</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        <!-- Member 5 -->
+                        <div class="item">
+                            <div class="team-member rounded">
+                                
+                                <div class="team-details">
+                                    <h5 class="title">Kelas Khusus Prediksi Bahaya lalu Lintas</h5>
+                                    <p class="position">AHM Safety Riding Park</p>
+                                </div>
+                                
+                                <div class="team-thumb">
+                                    <img src="images/event-details/5.jpg" alt="" />
+                                </div>	
+                                    
+                                <div class="team-excerpt">
+                                    <p>Memberikan kemampuan prediksi bahaya yang dirancang khusus sesuai kebutuhan Anda</p>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        
+                        <!-- Member 6 -->
+                        <div class="item">
+                            <div class="team-member rounded">
+                                
+                                <div class="team-details">
+                                    <h5 class="title">Kelas Khusus Profesi/<br>Perusahaan</h5>
+                                    <p class="position">AHM Safety Riding Park</p>
+                                </div>
+                                
+                                <div class="team-thumb">
+                                    <img src="images/event-details/6.jpg" alt="" />
+                                </div>	
+                                    
+                                <div class="team-excerpt">
+                                    <p>Memberikan kemampuan berkendara khusus sesuai kebutuhan Anda</p>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+            
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+        
+
+
+        <!-- Footer -->
+        <footer>
+            <!-- Widgets -->
+            <div class="footer-widgets">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <!-- Footer logo -->
+                            <!-- <p class="footer-logo">
+							<a href="#" title="Sena">
+								<img src="images/logo/icon.png" alt="Sena" data-rjs="2">
+							</a>
+						</p> --></div>
+                    </div>
+                    <div class="empty-30"></div>
+                    <div class="row">
+                        <!-- Contact info -->
+                        <div class="col-md-6 col-sm-6 res-margin">
+                            <div class="widget">
+                                <h5>AHM Safety Riding Park</h5>
+                                <div class="textwidget">
+                                    <p>
+                                        <i class="fa fa-home" aria-hidden="true"></i>
+                                        <span>
+                                            AHM Safety Riding & Training Center, Greenland International Indsutries Center(GIIC)
+                                            <br>
+                                            Blok DD No. 01, Kota Deltamas, Bekasi 17530, Indonesia
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <i class="fas fa-envelope"></i>
+                                        customercare@astra-honda.com
+                                    </p>
+                                    <p>
+                                        <i class="fa fa-globe" aria-hidden="true"></i>
+                                        www.astra-honda.com
+                                    </p>
+                                    <p>
+                                        <i class="fas fa-phone"></i>
+                                        <a href="mailto:email@sitename.com">1-500-989</a>
+                                    </p>
+                                    <p>
+                                        <i class="fas fa-envelope"></i>
+                                        <a href="mailto:email@sitename.com">0811-9-500-989</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col text-right">
+                            <img class="ahm-code" src="images/barcode/QR-code.png">
+                        </div>
+                        <!-- Newsletter -->
+                    </div>
+                </div>
+            </div>
+            <!-- Copyright -->
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- Text -->
+                            <p class="copyright">
+                                Copyright 2020,
+                                <a href="#" target="_blank">PT. Astra Honda Motor. All Rights Reserved</a>
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- Social links -->
+                            <!-- <div class="footer-social text-right">
+							<a href="#" title="Twitter"><i class="fab fa-twitter fa-fw"></i></a>
+							<a href="#" title="Facebook"><i class="fab fa-facebook-f fa-fw"></i></a>
+							<a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+							<a href="#" title="Dribbble"><i class="fab fa-dribbble"></i></a>
+							<a href="#" title="Pinterest"><i class="fab fa-pinterest fa-fw"></i></a>
+						</div> --></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Back to top -->
+            <a id="scrollTop">
+                <div class="icon icon-arrows-up"></div>
+                <div class="icon icon-arrows-up"></div>
+            </a>
+        </footer>
+        <!-- jQuery -->
+        <script src="layout/plugins/jquery/jquery.js"></script>
+        <!-- Bootstrap -->
+        <script src="layout/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <!-- Google Maps -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsuBjanQhmz-Xcbhk5WNzQ8iWzsctkwwk"></script>
+        <!-- Plugins -->
+        <script src="layout/plugins/retina/retina.min.js"></script>
+        <script src="layout/plugins/scrollto/jquery.scrollto.min.js"></script>
+        <script src="layout/plugins/parallax/jquery.parallax.min.js"></script>
+        <script src="layout/plugins/animatedheadline/animated.headline.js"></script>
+        <script src="layout/plugins/owlcarousel/owl.carousel.min.js"></script>
+        <script src="layout/plugins/slick/slick.js"></script>
+        <script src="layout/plugins/isotope/isotope.pkgd.min.js"></script>
+        <script src="layout/plugins/waitforimages/jquery.waitforimages.min.js"></script>
+        <script src="layout/plugins/nav/jquery.nav.min.js"></script>
+        <script src="layout/plugins/knob/jquery.knob.min.js"></script>
+        <script src="layout/plugins/waypoints/waypoints.min.js"></script>
+        <script src="layout/plugins/counterup/jquery.counterup.min.js"></script>
+        <script src="layout/plugins/wow/wow.min.js"></script>
+        <script src="layout/plugins/mb/jquery.mb.ytplayer.min.js"></script>
+        <!-- Main -->
+        <script src="layout/js/main.js"></script>
+    </body>
+</html>
