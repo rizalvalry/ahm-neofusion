@@ -1411,7 +1411,7 @@ section.video .video-container {
     - 11. Buttons -
 **********************/
 .btn {
-	border-radius: 8px;
+	border-radius: 2px;
 	padding: 10px;
 	line-height: 1;
 	font-size: 13px;
@@ -4005,6 +4005,7 @@ button.btn.honda-red {
 .newspaper {
 	column-count: 2;
 	padding: 10px 0 0 0;
+	margin-top: 20px;
 }
 
 .ahm-range {
@@ -4840,11 +4841,14 @@ h6.ahm-sub.text-muted {
 
 /* Create two equal columns that floats next to each other */
 .column-sheets {
+	position: relative;
 	float: left;
 	width: 10%;
 	padding: 10px;
 	height: 300px;
 	/* Should be removed. Only for demonstration */
+	right: 6em;
+	margin-right: 20px;
 }
 
 /* Clear floats after the columns */
@@ -6834,4 +6838,30 @@ button.btn.btn-user {
     background: none;
     color: white;
     font-size: 14px;
+}
+
+h5.detail-class {
+    position: relative;
+    display: block;
+    top: 3px;
+}
+
+.newspaper2 {
+    margin-top: 20px;
+}
+
+@media (max-width:767px) {
+	.column-sheets {
+		position: relative;
+		float: left;
+		width: 10%;
+		padding: 10px;
+		height: 300px;
+		right: 0;
+		margin-right: 0;
+	}
+}
+
+.section-clear {
+    margin: 0.5em;
 }

@@ -65,6 +65,12 @@
 		.res-margin {
 			margin-bottom: 0;
 		}
+
+		h5.detail-class {
+			top: 8px;
+			position: relative;
+			display: block;
+		}
 		
 		/* Text center */
 		.text-center-xs,  
