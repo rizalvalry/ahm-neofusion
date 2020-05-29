@@ -5237,15 +5237,6 @@ label.btn.btn-success {
 	background-color: red;
 }
 
-button.btn.btn-danger.btn-lg.ahm-btn-large {
-	position: relative;
-	background-color: red;
-	width: 7em;
-	height: 2.5em;
-	padding: 10px;
-	font-size: 16px;
-	border-radius: 4px;
-}
 
 button.btn.btn-danger.btn-lg.ahm-btn-cancel {
 	position: relative;
@@ -6862,8 +6853,49 @@ h5.detail-class {
 		right: 0;
 		margin-right: 0;
 	}
+	button.btn.btn-danger.btn-lg.ahm-btn-large.width {
+		width: 50%;
+	}
+	button.btn.ahm-button-reg {
+		font-size: 12px;
+	}
 }
 
 .section-clear {
     margin: 0.5em;
+}
+
+span.glyphicon.glyphicon-envelope.form-control-feedback {
+    top: 35px;
+    color: black;
+	right: 20px;
+	vertical-align: bottom;
+	display: block;
+}
+
+
+span.toggle-password.glyphicon.glyphicon-eye-close {
+	position: absolute;
+	top: 140px;
+	color: black;
+    right: 20px;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+}
+
+span.toggle-password.glyphicon.glyphicon-eye-open {
+	position: absolute;
+	top: 140px;
+	color: black;
+    right: 20px;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
 }

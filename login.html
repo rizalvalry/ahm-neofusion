@@ -43,6 +43,12 @@
         <link rel="stylesheet" type="text/css" href="layout/plugins/mb/css/jquery.mb.ytplayer.min.css">
         <!-- Modernizr -->
         <script src="layout/plugins/modernizr/modernizr.min.js"></script>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    
+
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
       		<script src="layout/plugins/html5shiv/html5shiv.js"></script>
@@ -190,6 +196,14 @@
                 </div>
             </div>
         </nav>
+
+
+
+
+
+
+
+
         <!-- Primary header -->
         <!-- Intro -->
         <section class="page-title valign parallax" data-image="images/ahm/banner1.jpg">
@@ -205,8 +219,25 @@
                                 <!--.tabs-->
                                 <div class="tabs-content">
                                     <div id="signup-tab-content" class="active">
-                                        <form class="signup-form" action="event-detail.html" method="post">
-                                            <div class="form-group">
+
+
+                                <form class="signup-form has-success has-feedback" action="event-detail.html" method="post">
+                                        
+                                        
+                                        <div class="form-group">
+                                            <label>Email</label>
+                                            <input type="text" class="input" id="inputSuccess2" aria-describedby="inputSuccess2Status">
+                                            <span class="glyphicon glyphicon-envelope form-control-feedback" aria-hidden="true"></span>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Password</label>
+                                            <input type="password" class="input" id="pass_log_id" name="pass">
+                                            <span toggle="#password-field" class="toggle-password glyphicon glyphicon-eye-close"></span>
+                                        </div>
+                                          
+
+                                            <!-- <div class="form-group">
                                                 <label>Email</label>
                                                 <input
                                                     type="text"
@@ -225,7 +256,7 @@
                                                     autocomplete="off"
                                                     placeholder="Password"
                                                 >
-                                            </div>
+                                            </div> -->
                                             <div class="form-group"></div>
                                             <div class="column">
                                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -257,11 +288,16 @@
                 <div class="icon icon-arrows-up"></div>
             </a>
 
-            <script type="text/javascript">
-                document.getElementById("myButton").onclick = function () {
-                    location.href = "www.yoursite.com";
-                };
+            <script>
+                $(document).on('click', '.toggle-password', function() {
+            
+            $(this).toggleClass("glyphicon-eye-close glyphicon-eye-open");
+            
+            var input = $("#pass_log_id");
+            input.attr('type') === 'password' ? input.attr('type','text') : input.attr('type','password')
+            });
             </script>
+
             <!-- jQuery -->
             <script src="layout/plugins/jquery/jquery.js"></script>
             <!-- Bootstrap -->
