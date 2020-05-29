@@ -1630,6 +1630,7 @@ iframe {
 	left: 5px;
 	right: 5px;
 	bottom: 5px;
+	/* border-radius: 50%; */
 	opacity: 0;
 	background: rgba(0, 0, 0, 0.7);
 	-webkit-transition: all 0.3s;
@@ -4860,11 +4861,11 @@ h6.ahm-sub.text-muted {
 
 img.ahm-kelas {
 	border-radius: 50%;
-	padding: 35px;
+	padding: 50px;
 	top: -18px;
 	position: relative;
 	display: block;
-	height: 90%;
+	height: 95%;
 }
 
 .ahm-round {
