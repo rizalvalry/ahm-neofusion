@@ -6822,7 +6822,8 @@ i.fa.fa-home {
     position: relative;
 }
 
-i.fa.fa-calendar {
+/* i.fa.fa-calendar */
+i.fas.fa-calendar-alt {
     color: white;
     font-size: 20px;
     top: 5px;
