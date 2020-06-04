@@ -86,7 +86,7 @@
  .owl-carousel button.owl-dot {
      background: 0 0;
      color: inherit;
-     margin-right: 25px;
+     margin: 0 10em 0 10em;
      border: none;
      padding: 0 !important;
      font: inherit;
